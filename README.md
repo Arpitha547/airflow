@@ -6,5 +6,5 @@
 
 # Flow of the project
    1. Extract mobiles data from flipkart using beautifulSoup
-   2. Transfrom the data into required columns using DAG(PythonOperator)
+   2. Transfrom the data into required columns using DAG(PythonOperator,PostgresOperator,PostgresHook)
    3. Load the data to postgres table using Airflow connections
